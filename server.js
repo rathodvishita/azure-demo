@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 app.get("/", (req, res) => {
-  res.send("Hello from Azure Web App! After another deployment 🚀");
+  res.send("Hello from Azure Web App! After another deployment 🚀" + PORT);
 });
 
 app.listen(PORT, () => {
