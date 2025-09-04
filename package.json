@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "start": "node server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "applicationinsights": "^3.9.0",
     "express": "^5.1.0"
   }
 }

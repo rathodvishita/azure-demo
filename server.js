@@ -1,3 +1,5 @@
+require("./telemetry");           // <-- must be first
+
 const express = require("express");
 const app = express();
 
